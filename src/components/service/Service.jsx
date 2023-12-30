@@ -138,7 +138,7 @@ const serviceContent = [
 
 const Service = () => {
   return (
-    <div className="container">
+    <div id="features" className="container pt-100 mb-0 mb-md-60">
       <div className="row">
         <div className="col-xl-9 col-lg-10 mx-auto mb-20">
           <h2 className="font-gilroy-bold text-center">

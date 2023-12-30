@@ -3,9 +3,9 @@ import Tilt from "react-parallax-tilt";
 
 const FancyFeatureFourteen = () => {
   return (
-    <div className="fancy-feature-fourteen pt-80 mb-50">
+    <div id="about" className="fancy-feature-fourteen pt-80 mb-50">
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-center">
           <div className="col-xl-6 col-lg-7 col-md-8">
             <h2 className="mb-3 display-6">
               A Simple, yet powerfull Telemarketing CRM for SMB's

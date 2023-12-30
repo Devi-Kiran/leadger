@@ -60,27 +60,29 @@ const EventOrganizer = () => {
       <Service/>
 
       {/* mt-250 mb-200 md-mt-150 md-mb-150 */}
-      <div className="pricing-section-three">
-        <div id="pricing" className="container">
-          <div className="title-style-five text-white text-center mb-50 md-mb-40">
-            <h6>Our Pricing Packages</h6>
-            <div className="row">
-              <div className="col-lg-9 m-auto">
-                <p>Our pricing packages cater to both cloud hosting and on-premises hosting.</p>
+      <div id="pricing" className="pt-40 pt-md-0">
+        <div className="pricing-section-three">
+          <div className="container">
+            <div className="title-style-five text-white text-center mb-50 md-mb-40">
+              <h6>Our Pricing Packages</h6>
+              <div className="row">
+                <div className="col-lg-9 m-auto">
+                  <p>Our pricing packages cater to both cloud hosting and on-premises hosting.</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="pricing-table-area-three">
-            <PricingThree />
-          </div>
-          <p className="text-white text-center mt-5">           
-            Note: The Above price Excluding of GST. For clients opting for on-premises hosting and seeking to leverage all features, it is essential to possess a dependable Windows system or server, a stable internet connection, a static IP, and their own domain.
-          </p>
-        </div>   
+            <div className="pricing-table-area-three">
+              <PricingThree />
+            </div>
+            <p className="text-white text-center mt-5">           
+              Note: The Above price Excluding of GST. For clients opting for on-premises hosting and seeking to leverage all features, it is essential to possess a dependable Windows system or server, a stable internet connection, a static IP, and their own domain.
+            </p>
+          </div>   
+        </div>
       </div>
   
-      <footer className="theme-footer-four">
+      <footer id="contact" className="theme-footer-four">
         <div className="top-footer">
           <div className="container">
             <Footer />
